@@ -1,0 +1,16 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+                       
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
+erwork -o.\objects\wiring_pulse.o -I.\cores -I.\RTE\Device\XMC4700-F144x2048 -I
+.\RTE\_Target_1 -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include -IC:\Keil_v
+5\ARM\PACK\Infineon\XMC4000_DFP\2.9.1\Device\XMC4700_series\Include -IC:\Keil_v
+5\ARM\PACK\Infineon\XMC4000_DFP\2.9.1\Device\XMClib\inc -IC:\Keil_v5\ARM\PACK\I
+nfineon\XMC4000_DFP\2.9.1\RTE_Driver --predefine="__UVISION_VERSION SETA 524" -
+-predefine="_RTE_ SETA 1" --predefine="XMC4700_F144x2048 SETA 1" --list=.\listi
+ngs\wiring_pulse.lst .\objects\wiring_pulse.s
+333 symbols in table

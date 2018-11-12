@@ -1,0 +1,13 @@
+.\sls10ere_swi_bif.o: SLS10ERE1\SLS10ERE_SWI_BIF.c
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SWI_BIF_transactor.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_include.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_type.h
+.\sls10ere_swi_bif.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_platform.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_SWI_BIF.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_interrupt.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_crypto.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_nvm.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/SLS10ERE_auth.h
+.\sls10ere_swi_bif.o: SLS10ERE1\include/..\..\board.h

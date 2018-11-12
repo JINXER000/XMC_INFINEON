@@ -1,0 +1,11 @@
+.\print.o: cores\Print.cpp
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\print.o: cores\Print.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\print.o: cores\WString.h
+.\print.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\print.o: cores\Printable.h

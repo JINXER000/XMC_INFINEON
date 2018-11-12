@@ -1,0 +1,10 @@
+.\system_xmc4700.o: RTE\Device\XMC4700-F144x2048\system_XMC4700.c
+.\system_xmc4700.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h
+.\system_xmc4700.o: C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h

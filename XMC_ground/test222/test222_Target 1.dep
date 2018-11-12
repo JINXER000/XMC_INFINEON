@@ -1,0 +1,984 @@
+Dependencies for Project 'test222', Target 'Target 1': (DO NOT MODIFY !)
+F (.\cores\dtostrf.c)(0x59B8F226)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\dtostrf.o --omf_browse .\dtostrf.crf --depend .\dtostrf.d)
+I (cores\dtostrf.h)(0x5ABD6B6B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\cores\itoa.c)(0x59B8F226)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\itoa.o --omf_browse .\itoa.crf --depend .\itoa.d)
+I (cores\itoa.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\cores\wiring_digital.c)(0x5ABD60C2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\wiring_digital.o --omf_browse .\wiring_digital.crf --depend .\wiring_digital.d)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+F (.\cores\Main.cpp)(0x5B5CC6DD)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (..\test222\Dps310.h)(0x5ABD6D07)
+I (.\libraries\SPI\src\SPI.h)(0x5ABD5D25)
+I (.\libraries\SPI\src\utility/xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (.\libraries\Wire\src\Wire.h)(0x5ABD4A1E)
+I (.\cores\Stream.h)(0x5ABD83F8)
+I (.\cores\Print.h)(0x59B8F226)
+I (.\cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (.\cores\Printable.h)(0x59B8F226)
+I (..\test222\timer.h)(0x5AED51D1)
+I (..\test222\util/dps310_consts.h)(0x5A2FFB5B)
+I (.\cores\wiring_digital.h)(0x5ABD5590)
+I (..\test222\driver.h)(0x5B597D53)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (..\test222\BspUsart.h)(0x5B589B73)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (.\libraries\Wire\src\utility\xmc_i2c_conf.c)(0x5ABD5913)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_i2c_conf.o --omf_browse .\xmc_i2c_conf.crf --depend .\xmc_i2c_conf.d)
+I (libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+F (.\cppforXMC4700.cpp)(0x597ADFC5)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\cppforxmc4700.o --omf_browse .\cppforxmc4700.crf --depend .\cppforxmc4700.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (cppforXMC4700.h)(0x59719FBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (BspUsart.h)(0x5B589B73)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+F (.\libraries\SPI\src\utility\xmc_spi_conf.c)(0x5ABD6A54)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_spi_conf.o --omf_browse .\xmc_spi_conf.crf --depend .\xmc_spi_conf.d)
+I (libraries\SPI\src\utility\xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+F (.\BspUsart.cpp)(0x5B5CCDF1)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\bspusart.o --omf_browse .\bspusart.crf --depend .\bspusart.d)
+I (BspUsart.h)(0x5B589B73)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver.cpp)(0x5B597D40)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\driver.o --omf_browse .\driver.crf --depend .\driver.d)
+I (..\test222\driver.h)(0x5B597D53)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (..\test222\Receive.h)(0x5B563C84)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+F (.\Receive.cpp)(0x5B5CC595)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\receive.o --omf_browse .\receive.crf --depend .\receive.d)
+I (Receive.h)(0x5B563C84)
+I (common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (board.h)(0x59AE7345)
+I (test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+F (.\cores\abi.cpp)(0x59B8F226)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\abi.o --omf_browse .\abi.crf --depend .\abi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\libraries\Wire\src\Wire.cpp)(0x5ABD3FF5)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\wire.o --omf_browse .\wire.crf --depend .\wire.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (libraries\Wire\src\Wire.h)(0x5ABD4A1E)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (.\cores\Stream.h)(0x5ABD83F8)
+I (.\cores\Print.h)(0x59B8F226)
+I (.\cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (.\cores\Printable.h)(0x59B8F226)
+I (..\test222\timer.h)(0x5AED51D1)
+I (.\libraries\SPI\src\SPI.h)(0x5ABD5D25)
+I (.\libraries\SPI\src\utility/xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+F (.\cores\new.cpp)(0x59B8F226)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\new.o --omf_browse .\new.crf --depend .\new.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\cores\Print.cpp)(0x5ABD4B60)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\print.o --omf_browse .\print.crf --depend .\print.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (cores\Print.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (cores\Printable.h)(0x59B8F226)
+F (.\cores\RingBuffer.cpp)(0x59B8F226)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\ringbuffer.o --omf_browse .\ringbuffer.crf --depend .\ringbuffer.d)
+I (cores\RingBuffer.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\cores\Stream.cpp)(0x5ABD861E)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\stream.o --omf_browse .\stream.crf --depend .\stream.d)
+I (cores\Stream.h)(0x5ABD83F8)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (cores\Print.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (cores\Printable.h)(0x59B8F226)
+I (..\test222\timer.h)(0x5AED51D1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+F (.\cores\WString.cpp)(0x5ABD6B7B)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\wstring.o --omf_browse .\wstring.crf --depend .\wstring.d)
+I (cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (cores\itoa.h)(0x59B8F226)
+I (cores\dtostrf.h)(0x5ABD6B6B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\libraries\SPI\src\HW_SPI.cpp)(0x5ABD5B5C)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\hw_spi.o --omf_browse .\hw_spi.crf --depend .\hw_spi.d)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (libraries\SPI\src\SPI.h)(0x5ABD5D25)
+I (libraries\SPI\src\utility/xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (.\libraries\Wire\src\Wire.h)(0x5ABD4A1E)
+I (.\cores\Stream.h)(0x5ABD83F8)
+I (.\cores\Print.h)(0x59B8F226)
+I (.\cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (.\cores\Printable.h)(0x59B8F226)
+I (..\test222\timer.h)(0x5AED51D1)
+F (.\libraries\SPI\src\SW_SPI.cpp)(0x5ABD5B2A)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sw_spi.o --omf_browse .\sw_spi.crf --depend .\sw_spi.d)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (libraries\SPI\src\SPI.h)(0x5ABD5D25)
+I (libraries\SPI\src\utility/xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+F (.\common.h)(0x5B5763FE)()
+F (.\Dps310.cpp)(0x5AED54F2)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\dps310.o --omf_browse .\dps310.crf --depend .\dps310.d)
+I (Dps310.h)(0x5ABD6D07)
+I (.\libraries\SPI\src\SPI.h)(0x5ABD5D25)
+I (.\libraries\SPI\src\utility/xmc_spi_conf.h)(0x5ABD69F5)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (.\libraries\Wire\src\utility\xmc_i2c_conf.h)(0x5ABD5AD3)
+I (..\test222\common.h)(0x5B5763FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\cores\types.h)(0x5ABCCBC6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\cores\pgmspace.h)(0x59B8F226)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x588B8344)
+I (..\test222\board.h)(0x59AE7345)
+I (..\test222\test_case.h)(0x513848B4)
+I (.\cores\wiring_constants.h)(0x5ABD6E87)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (.\cores\Button.h)(0x5B575BF7)
+I (.\cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (.\cores\pin_interrupt_conf.h)(0x5B577B32)
+I (.\cores\pin_interrupt_extern.h)(0x5B5766A1)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (.\libraries\Wire\src\Wire.h)(0x5ABD4A1E)
+I (.\cores\Stream.h)(0x5ABD83F8)
+I (.\cores\Print.h)(0x59B8F226)
+I (.\cores\WString.h)(0x5ABD6AA5)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x588B8344)
+I (.\cores\Printable.h)(0x59B8F226)
+I (..\test222\timer.h)(0x5AED51D1)
+I (util/dps310_consts.h)(0x5A2FFB5B)
+I (.\cores\wiring_digital.h)(0x5ABD5590)
+F (.\timer.cpp)(0x5B5CA841)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (timer.h)(0x5AED51D1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (.\board.c)(0x5AED5185)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\board.o --omf_browse .\board.crf --depend .\board.d)
+I (.\RTE\_Target_1\../../SLS10ERE1/Include/SWI_BIF_Transactor.h)(0x51497F30)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (board.h)(0x59AE7345)
+F (.\test_case.c)(0x5A968226)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\test_case.o --omf_browse .\test_case.crf --depend .\test_case.d)
+I (./SLS10ERE1/include/SLS10ERE.h)(0x5149559C)
+I (./SLS10ERE1/include/SLS10ERE_type.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (./SLS10ERE1/include/SLS10ERE_SWI_BIF.h)(0x514970C6)
+I (./SLS10ERE1/include/SWI_BIF_transactor.h)(0x51497F30)
+I (./SLS10ERE1/include/SLS10ERE_auth.h)(0x513848B4)
+I (./SLS10ERE1/include/SLS10ERE_nvm.h)(0x513848B4)
+I (board.h)(0x59AE7345)
+I (test_case.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\cores\Button.c)(0x5B575B26)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\button.o --omf_browse .\button.crf --depend .\button.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (cores\Button.h)(0x5B575BF7)
+F (.\cores\pin_interrupt.c)(0x5B57780D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\pin_interrupt.o --omf_browse .\pin_interrupt.crf --depend .\pin_interrupt.d)
+I (cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (cores\pin_interrupt_conf.h)(0x5B577B32)
+I (cores\pin_interrupt_extern.h)(0x5B5766A1)
+F (.\cores\pin_interrupt_conf.c)(0x5B577BB1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\pin_interrupt_conf.o --omf_browse .\pin_interrupt_conf.crf --depend .\pin_interrupt_conf.d)
+I (cores\pin_interrupt.h)(0x5B576365)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (cores\pin_interrupt_conf.h)(0x5B577B32)
+I (cores\pin_interrupt_extern.h)(0x5B5766A1)
+F (.\SLS10ERE1\SLS10ERE_auth.c)(0x5191EA72)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sls10ere_auth.o --omf_browse .\sls10ere_auth.crf --depend .\sls10ere_auth.d)
+I (SLS10ERE1\include/SLS10ERE_include.h)(0x59AD0CCF)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (SLS10ERE1\include/SLS10ERE_platform.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE.h)(0x5149559C)
+I (SLS10ERE1\include/SLS10ERE_SWI_BIF.h)(0x514970C6)
+I (SLS10ERE1\include/SWI_BIF_transactor.h)(0x51497F30)
+I (SLS10ERE1\include/SLS10ERE_interrupt.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_crypto.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_nvm.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_auth.h)(0x513848B4)
+I (SLS10ERE1\include/..\..\board.h)(0x59AE7345)
+F (.\SLS10ERE1\SLS10ERE_crypto.c)(0x519205AC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sls10ere_crypto.o --omf_browse .\sls10ere_crypto.crf --depend .\sls10ere_crypto.d)
+I (SLS10ERE1\include/SLS10ERE_math.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (SLS10ERE1\include/SLS10ERE_Crypto.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_curve.h)(0x5191E928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\SLS10ERE1\SLS10ERE_math.c)(0x51384590)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sls10ere_math.o --omf_browse .\sls10ere_math.crf --depend .\sls10ere_math.d)
+I (SLS10ERE1\include/SLS10ERE_math.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (SLS10ERE1\include/SLS10ERE_Crypto.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+F (.\SLS10ERE1\SLS10ERE_nvm.c)(0x5149559E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sls10ere_nvm.o --omf_browse .\sls10ere_nvm.crf --depend .\sls10ere_nvm.d)
+I (SLS10ERE1\include/SLS10ERE_include.h)(0x59AD0CCF)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (SLS10ERE1\include/SLS10ERE_platform.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE.h)(0x5149559C)
+I (SLS10ERE1\include/SLS10ERE_SWI_BIF.h)(0x514970C6)
+I (SLS10ERE1\include/SWI_BIF_transactor.h)(0x51497F30)
+I (SLS10ERE1\include/SLS10ERE_interrupt.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_crypto.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_nvm.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_auth.h)(0x513848B4)
+I (SLS10ERE1\include/..\..\board.h)(0x59AE7345)
+F (.\SLS10ERE1\SLS10ERE_SWI_BIF.c)(0x51402370)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\sls10ere_swi_bif.o --omf_browse .\sls10ere_swi_bif.crf --depend .\sls10ere_swi_bif.d)
+I (SLS10ERE1\include/SWI_BIF_transactor.h)(0x51497F30)
+I (SLS10ERE1\include/SLS10ERE_include.h)(0x59AD0CCF)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (SLS10ERE1\include/SLS10ERE_platform.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE.h)(0x5149559C)
+I (SLS10ERE1\include/SLS10ERE_SWI_BIF.h)(0x514970C6)
+I (SLS10ERE1\include/SLS10ERE_interrupt.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_crypto.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_nvm.h)(0x513848B4)
+I (SLS10ERE1\include/SLS10ERE_auth.h)(0x513848B4)
+I (SLS10ERE1\include/..\..\board.h)(0x59AE7345)
+F (.\SLS10ERE1\SWI_hal.c)(0x5B57DE60)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\swi_hal.o --omf_browse .\swi_hal.crf --depend .\swi_hal.d)
+I (SLS10ERE1\include/SWI_BIF_transactor.h)(0x51497F30)
+I (SLS10ERE1\include/SLS10ERE_SWI_BIF.h)(0x514970C6)
+I (SLS10ERE1\include/SLS10ERE_type.h)(0x513848B4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\RTE\_Target_1\../../board.h)(0x59AE7345)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x5A601928)()
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc4_eru.c)(0x5A7C0236)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc4_eru.o --omf_browse .\xmc4_eru.crf --depend .\xmc4_eru.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc4_gpio.c)(0x5A7C0244)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc4_gpio.o --omf_browse .\xmc4_gpio.crf --depend .\xmc4_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc4_scu.c)(0x5A7C025C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc4_scu.o --omf_browse .\xmc4_scu.crf --depend .\xmc4_scu.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_ccu4.c)(0x5A7C0144)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_ccu4.o --omf_browse .\xmc_ccu4.crf --depend .\xmc_ccu4.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu4.h)(0x5A7BFFAE)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu4_map.h)(0x5A7C00EC)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_ccu8.c)(0x5A7C014A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_ccu8.o --omf_browse .\xmc_ccu8.crf --depend .\xmc_ccu8.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_ccu8.h)(0x5A7BFFB4)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_ccu8_map.h)(0x5A7C00F2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_common.c)(0x5A7C0150)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_common.o --omf_browse .\xmc_common.crf --depend .\xmc_common.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_dac.c)(0x5A7C0154)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_dac.o --omf_browse .\xmc_dac.crf --depend .\xmc_dac.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_dac.h)(0x5A7BFFC0)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_eru.c)(0x5A7C017A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_eru.o --omf_browse .\xmc_eru.crf --depend .\xmc_eru.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_eru.h)(0x5A7BFFF2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_eru_map.h)(0x5A7C00FA)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_gpio.c)(0x5A7C01A2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_gpio.o --omf_browse .\xmc_gpio.crf --depend .\xmc_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_gpio.h)(0x5A7C0018)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio.h)(0x5A7C0108)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_gpio_map.h)(0x5A7C0110)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_i2c.c)(0x5A7C01AE)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_i2c.o --omf_browse .\xmc_i2c.crf --depend .\xmc_i2c.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_i2c.h)(0x5A7C002C)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_spi.c)(0x5A7C01E6)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_spi.o --omf_browse .\xmc_spi.crf --depend .\xmc_spi.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_spi.h)(0x5A7C0074)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_uart.c)(0x5A7C01EC)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_uart.o --omf_browse .\xmc_uart.crf --depend .\xmc_uart.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_uart.h)(0x5A7C007A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_usic.c)(0x5A7C0200)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_usic.o --omf_browse .\xmc_usic.crf --depend .\xmc_usic.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_usic.h)(0x5A7C0098)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_usic_map.h)(0x5A7C0124)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+F (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\src\xmc_vadc.c)(0x5A7C0206)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\xmc_vadc.o --omf_browse .\xmc_vadc.crf --depend .\xmc_vadc.d)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_vadc.h)(0x5A8A8346)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_common.h)(0x5A7BFFBA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_device.h)(0x5A7BFFC8)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_scu.h)(0x5A7C0068)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc4_scu.h)(0x5A7C011E)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc\xmc_vadc_map.h)(0x5A7C00A4)
+F (RTE\Device\XMC4700-F144x2048\RTE_Device.h)(0x57CFB73C)()
+F (RTE\Device\XMC4700-F144x2048\startup_XMC4700.s)(0x5B57F8BF)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "XMC4700_F144x2048 SETA 1"--list .\startup_xmc4700.lst --xref -o .\startup_xmc4700.o --depend .\startup_xmc4700.d)
+F (RTE\Device\XMC4700-F144x2048\system_XMC4700.c)(0x59473568)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\cores -I .\libraries\Wire\src\utility -I .\libraries\SPI\src\utility -I .\libraries\SPI\src -I .\libraries\Wire\src -I .\cores\xmc_lib\LIBS -I ..\test222 -I .\SLS10ERE1-I.\RTE\Device\XMC4700-F144x2048-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMClib\inc-IC:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DXMC4700_F144x2048-o .\system_xmc4700.o --omf_browse .\system_xmc4700.crf --depend .\system_xmc4700.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\XMC4700.h)(0x594718E6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm4.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\mpu_armv7.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Infineon\XMC4000_DFP\2.10.0\Device\XMC4700_series\Include\system_XMC4700.h)(0x5786F41A)
